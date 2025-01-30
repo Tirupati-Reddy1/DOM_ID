@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let div1 = document.createElement("div");
+      div1.style.border = "2px solid red";
+      div1.style.width = "280px";
+      div1.style.backgroundColor = "rgb(209, 226, 230)";
+      div1.style.margin = "auto";
+      div1.style.borderRadius = "30px";
+      div1.style.height = "380px";
+      div1.style.marginTop = "50px";
+      div1.style.boxShadow = "0 0 10px";
+      let heading = document.createElement("h2");
+      heading.innerHTML = "STUDENT ID CARD";
+      heading.style.textAlign = "center";
+      heading.style.color = "red";
+      document.body.appendChild(heading);
+      let colname = document.createElement("h5");
+      colname.innerHTML = "UNIVERSITY POST GRADUATE COLLEGE";
+      colname.style.textAlign = "center";
+      colname.style.color = "blue";
+      colname.style.marginTop = "30px";
+      div1.appendChild(colname);
+      let univ = document.createElement("h5");
+      univ.innerHTML = "KAKATIYA UNIVERSITY";
+      univ.style.color = "red";
+      univ.style.textAlign = "center";
+      univ.style.marginTop = "-20px";
+
+      div1.appendChild(univ);
+      let area = document.createElement("h5");
+      area.innerHTML = "Wrangal-507114";
+      area.style.color = "red";
+      area.style.textAlign = "center";
+      area.style.marginTop = "-20px";
+      div1.appendChild(area);
+      div2 = document.createElement("div");
+      div2.style.border = "1px solid";
+      div2.style.height = "100px";
+      div2.style.width = "100px";
+      div2.style.margin = "auto";
+      div2.style.borderRadius = "20px";
+      let image = document.createElement("img");
+      image.src =
+        "https://img.freepik.com/premium-vector/man-professional-business-casual-young-avatar-icon-illustration_1277826-623.jpg?semt=ais_hybrid";
+      image.style.height = "100%";
+      image.style.width = "100%";
+      image.style.borderRadius = "20px";
+      div2.appendChild(image);
+      div1.appendChild(div2);
+      let hallno = document.createElement("h5");
+      hallno.innerHTML = "H.T : 23002I0025";
+      hallno.style.textAlign = "center";
+      div1.appendChild(hallno);
+      let name = document.createElement("h5");
+      name.innerHTML = "NAME  : K.Tirupati Reddy";
+      div1.appendChild(name);
+      let course = document.createElement("h5");
+      course.innerHTML = "COURSE : M.C.A";
+      div1.appendChild(course);
+      course.style.marginTop = "-10px";
+      let blood = document.createElement("h5");
+      blood.innerHTML = "BRANCH : Computer Applications";
+      div1.appendChild(course);
+      blood.style.marginTop = "-10px";
+      div1.appendChild(blood);
+      document.body.append(div1);
+    </script>
+  </body>
+</html>
